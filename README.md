@@ -8,3 +8,5 @@ tlp, git, vim, gimp, inkscape, vs code, node, signal, libre, virtualbox, docker,
 .bashrc, crontab, fstab, rsync, rtcwake
 
 laptop lid behaviour: /etc/systemd/logind.conf -> uncomment, set ignore, reboot
+
+sudo tlp setcharge 70 90 BAT0 - set tlp example
