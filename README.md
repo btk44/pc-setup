@@ -10,3 +10,8 @@ tlp, git, vim, gimp, inkscape, vs code, node, signal, libre, virtualbox, docker,
 laptop lid behaviour: /etc/systemd/logind.conf -> uncomment, set ignore, reboot
 
 sudo tlp setcharge 70 90 BAT0 - set tlp example
+
+
+wifi:
+
+nmcli dev wifi list - use awk to grep output 
